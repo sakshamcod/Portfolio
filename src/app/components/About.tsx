@@ -35,12 +35,12 @@ const About = () => {
             enthusiast, I am passionate about harnessing tech for social impact.
           </p>
           <a 
-            href="/https://drive.google.com/file/d/1-D-lhiIG6HhGQZY87YdJsU7nxaJhfwJ1/view?usp=drivesdk" 
-            download
-            className="bg-teal-700 text-white px-6 py-2 rounded-full hover:bg-teal-800 transition-colors duration-300"
-          >
-            Download CV
-          </a>
+  href="/resume.pdf" 
+  download 
+  className="bg-teal-700 text-white px-6 py-2 rounded-full hover:bg-teal-800 transition-colors duration-300"
+>
+  Download CV
+</a>
         </motion.div>
       </div>
     </section>
