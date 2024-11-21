@@ -33,7 +33,8 @@ const Contact = () => {
       
       // Reset success message after 3 seconds
       setTimeout(() => setSubmitStatus('idle'), 3000)
-    } catch (error) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars
+    } catch (error : any) {
       setSubmitStatus('error')
       // Reset error message after 3 seconds
       setTimeout(() => setSubmitStatus('idle'), 3000)
